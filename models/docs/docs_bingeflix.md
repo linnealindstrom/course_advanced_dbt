@@ -15,3 +15,7 @@ The unique identifier of the session in the Bingeflix application.
 {% docs bingeflix_table_events %}
 This table contains information about the behavioral events of users while they interact with the Bingeflix platform. It includes events such as logins, logouts, videos watched, and CTA/button clicks.
 {% enddocs %}
+
+{% docs bingeflix_table_fct_events %}
+This table contains information about the behavioral events of users while they interact with the Bingeflix platform. It includes events such as logins, logouts, videos watched, and CTA/button clicks.
+{% enddocs %}

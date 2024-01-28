@@ -1,0 +1,11 @@
+models:
+  - name: fct_events
+    description: '{{ doc ("bingeflix_table_fct_events") }}'
+    meta:
+      priority: high
+      owner:
+        - lindsay
+    columns:
+      - name: user_id
+        description: '{{ doc("bingeflix_column_user_id") }}'
+        
