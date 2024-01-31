@@ -12,5 +12,3 @@ sources:
             description: The unique identifier of the campaign_id.
             tests:
               - not_null
-
-
