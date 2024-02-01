@@ -1,0 +1,11 @@
+models:
+  - name: fct_user_rolling_average
+    description: This model contains the rolling average of daily active users.
+    columns:
+      - name: day
+        description: The day the metric refers to.
+        tests:
+          - not_null
+          - unique
+      - name: avg_6_periods_daily_active_users
+        description: The average daily active users in the previous 6 days
